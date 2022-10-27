@@ -8,7 +8,7 @@ if __name__ == "__main__":
     root.attributes("-topmost", True)
     root.config(bg="white", bd=0, highlightthickness=0)
     root.attributes('-fullscreen',True)
-    # root.overrideredirect(True)
+    root.overrideredirect(True)
     root.withdraw()
 
     SCREEN_WIDTH = root.winfo_screenwidth()
