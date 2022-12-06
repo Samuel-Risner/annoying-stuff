@@ -13,3 +13,8 @@
   Sends the hotkey "windows + key down" two times when the cursor is in the genaral area for closing, minimizing and restoring a window. Sending the keys has a .2 second delay and an 1 second cooldown.
 
   Matching requirements: requirements000.txt
+ # /002/002_0.vbs
+  Plays the mp3 file "rickroll.mp3" while continually increasing the audio. The mp3 file has to be added by the user in the same directory as the vbs file.
+ # /002/002_1.vbs
+  Does the same thing but waits 10 minutes before playing the mp3 and repeats the waiting and playing until it is closed.
+  
