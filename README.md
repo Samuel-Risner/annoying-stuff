@@ -1,10 +1,15 @@
 # annoying-stuff
- A bunch of Python files that do annoying stuff when executed
+ A bunch of files that do annoying stuff when executed.
 # corresponding requirements
- requirements1.txt -> tadadladadada.py
- requirements2.txt -> talo.py
+ Not every file has corresponding requirements.
+
+ The three trailing numbers of the requirements files indicate to which file they belong.
 # what the files do
- ## tadadladadada.py
-  Sends the hotkey "windows + key down" two times when the mouse pointer is in the genaral area for closing, minimizing and restoring a window. The keys have a .2 second delay and have a 1 second cooldown.
- ## talo.py
-  Creates a white popup window in fullscreen mode, which can only be closeed when hitting an invisible button, when the mouse pointer is in the genaral area for closing, minimizing and restoring a window.
+ ## 000.py
+  Creates a white popup window in fullscreen mode, which can only be closeed when hitting an invisible button. The window only pops up when the cursor is in the genaral area for closing, minimizing and restoring a window.
+
+  Matching requirements: requirements000.txt
+ ## 001.py
+  Sends the hotkey "windows + key down" two times when the cursor is in the genaral area for closing, minimizing and restoring a window. Sending the keys has a .2 second delay and an 1 second cooldown.
+
+  Matching requirements: requirements000.txt
